@@ -1,5 +1,11 @@
 # appium使用方法
 
+### appium-client
+
+```text
+pip install Appium-Python-Client
+```
+
 ### 設定例
 ```text
 {
