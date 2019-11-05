@@ -72,6 +72,16 @@ Edit -> Find Session
 
 # adb
 
+###macのadb path
+
+```text
+$ export PATH=$PATH:/Users/<自分のユーザー名のフォルダ>/Library/Android/sdk/platform-tools
+$ adb kill-server                                                               
+$ adb start-server                                                                                   
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+```
+
 ### 接続デバイス一覧
 
 ```text
