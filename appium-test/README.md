@@ -7,6 +7,7 @@ pip install Appium-Python-Client
 ```
 
 ### 設定例
+Android:
 ```text
 {
   "platformName": "Android",
@@ -15,6 +16,17 @@ pip install Appium-Python-Client
   "appPackage": "jp.co.recruit.android.rikunabi.twenty",
   "appActivity": "jp.co.recruit.android.rikunabi.twenty.activity.home.HomeActivity",
   "noReset": true
+}
+```
+
+ios:
+```text
+{
+  "automationName": "XCUITest",
+  "platformName": "iOS",
+  "platformVersion": "13.2",
+  "deviceName": "iPhone Simulator",
+  "app": ""
 }
 ```
 

@@ -5,7 +5,8 @@ import time
 class Handle_test(object):
     def __init__(self):
         self.d = u2.connect("127.0.0.1:62001")
-        self.d.app_start("jp.co.recruit.android.rikunabi.twenty")
+        # self.d.app_start("jp.co.recruit.android.rikunabi.twenty")
+        self.d.app_start("jp.mynavi.tenshoku.tenshoku")
 
     def get_size(self):
         size = self.d.window_size()
@@ -19,4 +20,4 @@ class Handle_test(object):
 
 if __name__ == "__main__":
     h = Handle_test()
-    h.click_login()
+    h.get_size()
