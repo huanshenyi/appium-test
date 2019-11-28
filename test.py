@@ -10,6 +10,8 @@ class Handle_test(object):
 
     def get_size(self):
         size = self.d.window_size()
+        time.sleep(5)
+        self.d.app_clear("jp.mynavi.tenshoku.tenshoku")
         return size
 
     def click_login(self):
